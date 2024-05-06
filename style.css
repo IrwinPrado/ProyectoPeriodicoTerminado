@@ -1,0 +1,98 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: cadetblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.Logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+nav a:hover{
+    color: chartreuse;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+.Informacion{
+    margin: 100px;
+    text-align: justify;
+}
+.contenedor{
+    max-width: 900px;
+    margin: 0 auto;
+}
+footer{
+    background-color: rgb(42, 43, 90);
+    padding: 70px 0;
+}
+.footer-columnas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-enlaces{
+    width: 30%;
+    padding: 0 18px;
+}
+.footer-enlaces h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+    display: inline-block;
+    align-items: right;
+    justify-content: space-between;
+}
+.footer-enlaces ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3 ease;
+}
+.footer-enlaces ul li a:hover{
+    color: #4b67e1;
+    padding-left: 6px;
+}
+.redes-enlaces a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all .5s ease;
+}

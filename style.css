@@ -76,6 +76,18 @@ nav a:hover{
     max-width: 400px;
     background-image: url(ImagenMVP.jpg);
     background-size: cover;
+    border-radius: 18px;
+    border: solid 3px rgb( 40, 190, 0);
+}
+.articulo-uno button{
+    display: block; 
+    width: 150px;
+    height: 50px;
+    margin: 40px 40px 30px 110px;
+    color: aliceblue;
+    font-size: 18px;
+    background-color: rgb(36, 109, 36);
+    border: solid 1px whitesmoke;
 }
 .articulo-uno ol li{
     padding-bottom: 10px ;
@@ -86,6 +98,21 @@ nav a:hover{
 .Informacion{
     margin: 100px;
     text-align: justify;
+}
+
+.articulo-dos{
+    display: flex; 
+    width: 150px;
+    height: 50px;
+    margin: 150px;
+    color: aliceblue;
+    font-size: 18px;
+}
+.TablaSemanal{
+    padding: 10px;
+    background-color: blue;
+    opacity: 0.9;
+    display: inline-block;
 }
 
 /* Atrinutos para los elementos de footer o pie de pagina */
@@ -178,10 +205,15 @@ footer{
     text-shadow: 5px 3px 3px black;
 }
 .InicioSesion h2{
-    padding: 19px;
+    padding: 25px;
+}
+.InicioSesion input:hover{
+    background-color: grey;
+    opacity: 0.6;
+    font-size: 17px;
 }
 .Crearcuenta input:hover{
     background-color: grey;
     opacity: 0.7;
-    color: azure;
+    font-size: 17px;
 }

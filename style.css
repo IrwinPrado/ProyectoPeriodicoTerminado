@@ -1,3 +1,5 @@
+/* Atributos para los elementos en body General*/
+
 body{
     font-family: sans-serif;
     margin: 0;
@@ -5,6 +7,8 @@ body{
     opacity: .9;
     box-sizing: border-box;
 }
+/* Atributos para la barra de navegacion en header */
+
 a{
     text-decoration: none;
     color: aliceblue;
@@ -43,6 +47,8 @@ nav a:hover{
     }
 }
 
+/* Atributos para los elementos como main y articulos en el body */
+
 .Publicidad img{
     align-items: end;
     width: 50px;
@@ -67,7 +73,7 @@ nav a:hover{
     color: aliceblue;
     background-color: gold;
     height: 320px;
-    width: 400px;
+    max-width: 400px;
     background-image: url(ImagenMVP.jpg);
     background-size: cover;
 }
@@ -81,6 +87,9 @@ nav a:hover{
     margin: 100px;
     text-align: justify;
 }
+
+/* Atrinutos para los elementos de footer o pie de pagina */
+
 .contenedor{
     max-width: 900px;
     margin: 0 auto;
@@ -133,3 +142,46 @@ footer{
     transition: all .5s ease;
 }
 
+/* Atributos para la pagina de registrarse */
+
+.Registros{
+    margin: 130px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(88, 199, 88, 0.8);
+    border-radius: 20px;
+    border: outset 5px green;
+    height: 600px;
+    color: aliceblue;
+    text-shadow: 5px 3px 3px black;
+}
+.Registros input{
+    padding: 2px;
+    margin-top: 9px ;
+}
+.Crearcuenta{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+}
+.InicioSesion{
+    margin: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(88, 199, 88, 0.8);
+    border-radius: 20px;
+    border: outset 5px green;
+    height: 300px;
+    color: aliceblue;
+    text-shadow: 5px 3px 3px black;
+}
+.InicioSesion h2{
+    padding: 19px;
+}
+.Crearcuenta input:hover{
+    background-color: grey;
+    opacity: 0.7;
+    color: azure;
+}

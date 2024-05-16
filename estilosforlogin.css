@@ -1,0 +1,342 @@
+:root {
+    --primary: rgb(34, 70, 70);
+    --secondary: #0a0a0a;
+    --text: #1F2346;
+}
+
+body {
+    font-size: 1rem;
+    background-color: rgb(134, 175, 177);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish, sans-serif;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(42, 90, 90);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.Logo img{
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+nav a:hover{
+    color: chartreuse;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+.login-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    margin: 0 auto;
+}
+
+
+.login-side {
+    padding: 11.75rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.info-side {
+    height: 100vh;
+    padding: 5.25rem 3rem 3rem 2rem;
+    color: #401B3D;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(91, 148, 117);
+}
+
+.info-side h2 {
+    margin-top: 3rem;
+    color: #ffff;
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
+}
+
+.info-side p {
+    font-size: 1.2rem;
+}
+
+.info-side img {
+    max-width: 53.75rem;
+}
+
+.welcome-message {
+    max-width: 22.5rem;
+}
+
+.logo {
+    height: 3rem;
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+}
+
+.my-form__wrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 28.75rem;
+    width: 100%;
+    padding: 3rem 2rem;
+    height: fit-content;
+    box-shadow: 
+        rgba(40, 136, 64, 0.781)
+        0rem 6px 26px 0rem;
+}
+
+.my-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+    gap: 1rem;
+    background-color: #ffff;
+}
+
+.login-welcome {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ffff;
+}
+
+.login-welcome-row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.my-form__button {
+    background-color: var(--primary);
+    color: rgb(233, 227, 227);
+    white-space: nowrap;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    line-height: 3.125rem;
+    outline: none;
+    font-size: 1.125rem;
+    letter-spacing: .025em;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 800;
+    min-height: 3.125rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.my-form__actions {
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary);
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.my-form__actions a {
+    color: var(--secondary);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.my-form__actions a:hover {
+    text-decoration: underline;
+}
+
+.my-form__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-form__signup {
+    display: flex;
+    justify-content: center;
+}
+
+.my-form__signup a {
+    color: var(--primary);
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
+.my-form__signup a:hover {
+    text-decoration: underline;
+}
+
+.text-field input {
+    color: var(--secondary);
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid var(--secondary);
+    height: 3.125rem;
+    letter-spacing: .03rem;
+    background-color: transparent;
+    outline: none;
+    transition: .25s;
+    border-radius: 0.5rem;
+    text-indent: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.text-field {
+    position: relative;
+}
+
+.text-field img {
+    position: absolute;
+    right: -0.125rem;
+    bottom: -0.25rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    transform: translate(-50%,-50%);
+    transform-origin: center;
+}
+
+.text-field input:focus {
+    border: 0.0625rem solid var(--primary);
+}
+
+.text-field label {
+    color: var(--secondary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: .03rem;
+    z-index: 10;
+}
+
+@media (max-width: 640px) {
+    .login-wrapper {
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+    
+    .info-side {
+        flex-direction: column-reverse;
+        padding: 3rem 3rem 3rem 2rem;
+    }
+}
+.contenedor{
+    max-width: 900px;
+    margin: 0 auto;
+}
+footer{
+    background-color: rgb(15, 32, 32);
+    padding: 70px 0;
+}
+.footer-columnas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-enlaces{
+    width: 30%;
+}
+
+.footer-enlaces h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    font-weight: 500;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 5px;
+    display: inline-block;
+    align-items: right;
+    justify-content: space-between;
+}
+.footer-enlaces ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    transition: all .3 ease;
+}
+.footer-enlaces ul li a:hover{
+    color: #4b67e1;
+    padding-left: 3px;
+}
+.redes-enlaces a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 45%;
+    color: white;
+    transition: all .5s ease;
+}
+.box-contacts a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgb(100, 100, 100 );
+    margin: 0 10px 10px 45px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 45%;
+    color: white;
+    transition: all .5s ease;
+
+}
+.direct-contacts ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    transition: all .3 ease;
+}

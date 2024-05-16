@@ -327,14 +327,14 @@ footer{
 /* aqui van los atributos para el menu de perfiles */
 
 .conte_parent{
-    display:flex;
+    display: inline-block;
     justify-content:space-around;
     align-items: center;
     flex-wrap:wrap;
 }
   .conte{
-      height: 510px;
-      width: 350px;
+      height: 500px;
+      width: 300px;
       box-shadow:0 0 7px #111 ;
       margin: 30px 30px;
   }
@@ -377,5 +377,11 @@ footer{
       color: rgb(212, 212, 250);
   }
  
-  
-  
+  /* segundo intento de galeria de perfiles */
+
+.column-two{
+    padding: 0px;
+    margin-left: 350px;
+    display: inline-flex;
+    margin-top: -900px;
+}

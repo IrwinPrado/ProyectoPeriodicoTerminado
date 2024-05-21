@@ -66,7 +66,7 @@ nav a:hover{
     margin: 135px;
     height: 160px;
     align-content: center;
-    border: outset 10px rgb( 40, 190, 0);
+    border: outset 7px rgb( 40, 190, 0);
     background-color: rgba(20, 20, 20, .2);
 }
 
@@ -266,9 +266,9 @@ footer{
 .contenedor-cartas{
     width: 100%;
     display: flex;
-    max-width: 1100px;
+    max-width: 900px;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 500px;
     margin-bottom: 50px;
 }
 
@@ -290,7 +290,7 @@ footer{
 
 .cartas-presentacion img{
     width: 100%;
-    height: 250px;
+    height: 300px;
     border: outset 4px black;
 }
 
@@ -326,7 +326,7 @@ footer{
 
 /* aqui van los atributos para el menu de perfiles */
 
-.conte_parent{
+/* .conte_parent{
     display: inline-block;
     justify-content:space-around;
     align-items: center;
@@ -384,4 +384,4 @@ footer{
     margin-left: 350px;
     display: inline-flex;
     margin-top: -900px;
-}
+} 

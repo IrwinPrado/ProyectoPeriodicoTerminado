@@ -121,9 +121,7 @@ nav a:hover{
     width: 100%;
     padding: 3rem 2rem;
     height: fit-content;
-    box-shadow: 
-        rgba(40, 136, 64, 0.781)
-        0rem 6px 26px 0rem;
+    border: outset 4px rgb( 40, 190, 0); 
 }
 
 .my-form {

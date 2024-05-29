@@ -1,5 +1,5 @@
 :root {
-    --secondary: rgb(76, 132, 134);
+    --secondary: rgb(54, 59, 59);
 }
 
 * {
@@ -26,6 +26,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin: 10px;
 }
 .Logo{
     display: flex;
@@ -81,6 +82,9 @@ nav a:hover{
     overflow: hidden;
     border-radius: 1rem;
 }
+.article-preview h3{
+    color: black;
+}
 
 .articles article a {
     display: inline-flex;
@@ -121,9 +125,7 @@ nav a:hover{
     object-fit: cover;
 }
 
-.articles article:hover img {
-    transform: scale(1.5); 
-}
+
 
 .read-more a{
     color: black;
@@ -176,6 +178,7 @@ footer{
     display: block;
     margin-bottom: 10px;
     transition: all .3 ease;
+    margin-left: 30px;
 }
 .footer-enlaces ul li a:hover{
     color: #4b67e1;

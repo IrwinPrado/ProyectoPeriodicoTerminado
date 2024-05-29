@@ -27,6 +27,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin: 10px;
 }
 .Logo{
     display: flex;
@@ -300,6 +301,7 @@ footer{
     display: block;
     margin-bottom: 10px;
     transition: all .3 ease;
+    margin-left: 30px;
 }
 .footer-enlaces ul li a:hover{
     color: #4b67e1;

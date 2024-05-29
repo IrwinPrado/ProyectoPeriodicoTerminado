@@ -3,7 +3,7 @@
 body{
     font-family: sans-serif;
     margin: 0;
-    background-color: rgb(76, 132, 134);
+    background-color: rgb(134, 175, 177);
     opacity: .9;
     box-sizing: border-box;
 }
@@ -21,6 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin: 10px;
 }
 .Logo{
     display: flex;
@@ -64,7 +65,7 @@ nav a:hover{
     text-align: center;
     padding: 10px;
     margin: 135px;
-    height: 160px;
+    height: 380px;
     align-content: center;
     border: outset 7px rgb( 40, 190, 0);
     background-color: rgba(20, 20, 20, .2);
@@ -130,11 +131,6 @@ nav a:hover{
     color: aliceblue;
     font-size: 18px;
 }
-.TablaSemanal{
-    padding: 10px;
-    background-color: blue;
-    opacity: 0.9;
-}
 
 /* Atrinutos para los elementos de footer o pie de pagina */
 
@@ -173,6 +169,7 @@ footer{
     display: block;
     margin-bottom: 10px;
     transition: all .3 ease;
+    margin-left: 0px;
 }
 .footer-enlaces ul li a:hover{
     color: #4b67e1;

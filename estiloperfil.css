@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -71,6 +72,11 @@ nav a:hover{
     justify-content: center;
     max-width: 75rem;
     gap: 1.5rem;
+}
+.article-preview:hover{
+    border: outset 1px rgb(141, 226, 198);
+    background-color: rgb(rgb(230, 230, 230));
+    transform: translateY(-10px);
 }
  
 .articles article {
